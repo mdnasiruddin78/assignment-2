@@ -1,0 +1,15 @@
+/* responsive style start */
+@media screen and (max-width: 576px) {
+    .header-content h1{
+        flex-direction: column;
+    }
+    nav ul{
+        display: none;
+    }
+    .bars{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        align-items: center;
+    }
+}

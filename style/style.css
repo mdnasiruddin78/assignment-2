@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section start */
+.header-container{
+    background-color: rgb(34, 34, 34);
+}
+.header-content{
+    display: flex;
+    max-width: 1100px;
+    border: 2px solid white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    /* margin-top: 50px; */
+}
+nav ul{
+    display: flex;
+    gap:40px;
+}
+ul li{
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+}
+.bars{
+    display: none;
+}
+.header-content h1{
+    font-size: 34;
+    font-family: "Inter", sans-serif;;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+ul li button{
+    background-color: rgb(230, 83, 60);
+    font-size: 16;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px 8px 20px;
+    border-radius: 40px;
+    border: none;
+}
+ul li a{
+    font-size: 16;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.bars{
+    color: rgb(255, 255, 255);
+}
+.text-content{
+    max-width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid white;
+    margin: 0 auto;
+}
+.child1{
+    margin-top: 80px;
+}
+.child1 h1{
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+.child1 h1 .shape{
+    font-family: "Dancing Script", cursive;
+    font-weight: 100;
+}
+.child1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+}
+.child1 button{
+    padding: 16px 40px 16px 40px;
+    border-radius: 40px;
+    border: none;
+    background-color: rgb(230, 83, 60);
+    margin-top: 28px;
+    color: rgb(255, 255, 255);
+}
+.child1 .app{
+    background-color: black;
+    border: 1px solid white;
+    margin-left: 14px;
+}
+/* header section end */
