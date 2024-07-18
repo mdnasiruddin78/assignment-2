@@ -7,10 +7,12 @@
         display: none;
     }
     .bars{
-        display: flex;
-        flex-direction: row;
+        display: block;
+        color: rgb(255, 255, 255);
+        /* flex-direction: row;
         justify-content: end;
         align-items: center;
+        color: aliceblue; */
     }
 }
 @media screen and (max-width: 576px) {
@@ -26,7 +28,7 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .card img{
-        margin: 0 auto;
+        /* margin: 0 auto; */
         width: 450px;
         border-radius: 250px;
     }
@@ -40,9 +42,6 @@
     }
     .extra button{
         width: 400px;
-    }
-    .child2{
-        /* width: 450px; */
     }
     img{
         width: 500px;
