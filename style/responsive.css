@@ -22,11 +22,29 @@
     }
 }
 @media screen and (max-width: 576px) {
-    .change-container .child2{
+    .image-content{
         grid-template-columns: repeat(1, 1fr);
-        gap: 20px;
     }
-    .child2 .small{
+    .card img{
         margin: 0 auto;
+        width: 450px;
+        border-radius: 250px;
     }
 }
+@media screen and (max-width: 576px) {
+    .run-content{
+        flex-direction: column;
+    }
+    .extra h1 p{
+        text-align: center;
+    }
+    .extra button{
+        width: 400px;
+    }
+    .child2{
+        /* width: 450px; */
+    }
+    img{
+        width: 500px;
+    }
+}   
