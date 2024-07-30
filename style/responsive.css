@@ -6,34 +6,52 @@
     nav ul{
         display: none;
     }
-    .bars{
+    ul .bars{
         display: block;
-        color: rgb(255, 255, 255);
-        /* flex-direction: row;
-        justify-content: end;
-        align-items: center;
-        color: aliceblue; */
     }
 }
 @media screen and (max-width: 576px) {
     .text-content{
         flex-direction: column;
     }
+    .first-text button{
+        width: 250px;
+    }
     .child2{
         margin: 0 auto;
+        margin-top: 50px;
+    }
+    .first-btn{
+        top: 630px;
+        right: 100px;
+    }
+    .second-btn{
+        top: 830px;
+        right: 300px;
     }
 }
 @media screen and (max-width: 576px) {
+    .change-container{
+        padding: 30px;
+    }
+    .title-text .header{
+        margin-top: 0px;
+    }
     .image-content{
         grid-template-columns: repeat(1, 1fr);
     }
     .card img{
-        /* margin: 0 auto; */
-        width: 450px;
+        margin: auto;
+        width: 300px;
         border-radius: 250px;
+        margin-left: 20%;
+        /* border: 2px solid red; */
     }
 }
 @media screen and (max-width: 576px) {
+    .run-container{
+        padding: 30px;
+    }
     .run-content{
         flex-direction: column;
     }
@@ -41,9 +59,10 @@
         text-align: center;
     }
     .extra button{
-        width: 400px;
+        width: 450px;
     }
-    img{
-        width: 500px;
+    .run-image{
+        width: 430px;
+        margin-left: 4%;
     }
 }   
