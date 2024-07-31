@@ -4,12 +4,12 @@
 }
 /* header section start */
 .header-container{
-    background-color: rgb(34, 34, 34);
+    background: radial-gradient(rgb(49, 49, 49), rgb(8, 8, 8));
 }
 .header-content{
     display: flex;
     max-width: 1100px;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -29,7 +29,7 @@ ul li{
 ul a{
     text-decoration: none;
 }
- ul .bars{
+#bars{
     display: none;
     color: rgb(255, 255, 255);
 }
@@ -41,28 +41,29 @@ ul a{
     color: rgb(230, 83, 60);
 }
 
-ul li button{
+ul button{
     background-color: rgb(230, 83, 60);
-    font-size: 16;
+    font-size: 16px;
     font-weight: 600;
     font-family: "Inter", sans-serif;
     color: rgb(255, 255, 255);
-    padding: 5px 10px 5px 10px;
+    padding: 5px;
     border-radius: 40px;
     border: none;
 }
 ul li a{
-    font-size: 16;
+    font-size: 16px;
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
+
 .text-content{
     max-width: 1100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid white; */
+    border: 2px solid white;
     margin: 0 auto;
     /* padding: 10px; */
 }
@@ -129,6 +130,15 @@ ul li a{
     top: 500px;
     right: 400px;
     background-color: rgba(48, 48, 48, 0.54);
+    display: flex;
+}
+.second-btn .color-add{
+    width: 28px;
+    height: 28px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-right: 10px;
 }
 /* header section end */
 /* change your habit section start */
@@ -157,7 +167,7 @@ ul li a{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     max-width: 1100px;
-    /* border: 2px solid white; */
+    border: 2px solid white;
     gap: 20px;
     margin: 0 auto; 
     width: 100%;
@@ -191,7 +201,7 @@ ul li a{
 }
 .run-content{
     max-width: 1100px;
-    /* border: 2px solid white; */
+    border: 2px solid white;
     border-radius: 15px;
     background: rgb(34, 34, 34);
     margin: 0 auto;
@@ -238,3 +248,53 @@ ul li a{
     /* border: 2px solid red; */
 }
 /* ran and extra section end */
+/* bmi calculator section start */
+.bmi-container{
+    background-color: black;
+    border: 2px solid black;
+}
+.bmi-content{
+    display: flex;
+    max-width: 1100px;
+    border: 2px solid white;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.text-section{
+    margin: 0 auto;
+}
+.text-section h1{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    font-family: "Inter", sans-serif;
+    font-weight:900;
+    text-align: left;
+}
+.text-section p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-align: left;
+}
+.calculator-chart{
+    background-color: rgb(34, 34, 34);
+    border: 2px solid rgb(34, 34, 34);
+    margin-top: 80px;
+}
+.max{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.bmi-table h1{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.bmi-table table{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+/* bmi calculator section end */
