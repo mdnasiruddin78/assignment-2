@@ -289,6 +289,9 @@ ul li a{
     justify-content: space-between;
     align-items: center;
 }
+.bmi-table{
+    border: 2px solid white;
+}
 .bmi-table h1{
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -317,7 +320,7 @@ tr td{
     text-align: left;
 }
 .bmi-input{
-
+    border: 2px solid red;
 }
 .bmi-input h1{
     color: rgb(255, 255, 255);
@@ -337,7 +340,7 @@ tr td{
     margin-bottom: 30px;
 }
 .bmi-input input{
-    width: 180px;
+    width: 140px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     padding: 12px 40px 12px 20px;
@@ -346,7 +349,7 @@ tr td{
     margin-right: 10px;
 }
 .bmi-input #last-input{
-    width: 430px;
+    width: 350px;
 }
 .bmi-input button{
     margin-top: 22px;
