@@ -114,13 +114,13 @@ ul li a{
     border: none;
     padding: 20px;
     top: 220px;
-    right: 200px;
+    right: 250px;
 }
 .first-btn h1{
     color: rgb(255, 255, 255);
     text-align: left;
     font-size: 30px;
-    font-weight: 700;
+    font-weight: 650;
     font-family: "Inter", sans-serif;
 }
 .first-btn p{
