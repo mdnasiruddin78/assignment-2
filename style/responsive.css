@@ -91,4 +91,16 @@
     .bmi-content{
         width: 505px;
     }
+}
+@media screen and (max-width: 576px) {
+    .footer-content{
+        flex-direction: column;
+        padding: 30px;
+    }
+    .first-section{
+        margin-bottom: 30px;
+    }
+    .border{
+        width: 520px;
+    }
 }   
