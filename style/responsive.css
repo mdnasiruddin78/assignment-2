@@ -65,4 +65,12 @@
         width: 430px;
         margin-left: 4%;
     }
+}
+@media screen and (max-width: 576px) {
+    .bmi-container{
+        padding: 30px;
+    }
+    .max{
+        flex-direction: column;
+    }
 }   
