@@ -98,6 +98,21 @@
         width: 370px;
     }
 }
+/* Meet Our Team section start */
+@media screen and (max-width: 576px) {
+    .ourteam-container{
+        padding: 30px;
+    }
+    .image-glarry{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .meet{
+        padding: 20px;
+    }
+    .png-image img{
+        width: 320px;
+    }
+}
 /* footer section responsive start */
 @media screen and (max-width: 576px) {
     .footer-content{
