@@ -97,6 +97,12 @@
     .bmi-content{
         width: 370px;
     }
+    .bmi-input #chevron1{
+        top: 225px;
+    }
+    .bmi-input #chevron2{
+        top: 275px;
+    }
 }
 /* Meet Our Team section start */
 @media screen and (max-width: 576px) {

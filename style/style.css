@@ -321,6 +321,7 @@ tr td{
 }
 .bmi-input{
     /* border: 2px solid red; */
+    position: relative;
 }
 .bmi-input h1{
     color: rgb(255, 255, 255);
@@ -358,6 +359,19 @@ tr td{
     color: rgb(255, 255, 255);
     border: none;
     padding: 16px 40px 16px 40px;
+}
+/* #right{
+    position: relative;
+} */
+.bmi-input #chevron1{
+    position: absolute;
+    right: 30px;
+    top: 210px;
+}
+.bmi-input #chevron2{
+    position: absolute;
+    right: 30px;
+    top: 260px;
 }
 /* bmi calculator section end */
 /* Meet Our Team section start */
