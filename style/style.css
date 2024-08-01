@@ -121,9 +121,9 @@ ul li a{
     color: rgba(255, 255, 255, 0.65);
 }
 .second-btn{
-    top: 450px;
+    top: 510px;
     right: 560px;
-    background-color: rgba(48, 48, 48, 0.54);
+    background-color: rgba(37, 37, 37, 0.616);
     display: flex;
 }
 .second-btn .color-add{
