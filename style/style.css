@@ -436,6 +436,9 @@ tr td{
     display: flex;
     justify-content: space-between;
 }
+.first-section{
+    margin-top: 30px;
+}
 .first-section h2{
     font-size: 60px;
     font-family: "Inter", sans-serif;
@@ -449,6 +452,9 @@ tr td{
     font-family: "Inter", sans-serif;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5); 
+}
+.second-section{
+    margin-top: 30px;
 }
 .second-section h2{
     font-size: 30px;
