@@ -20,7 +20,7 @@ nav ul{
     display: flex;
     gap: 40px;
     border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 2px;
+    padding: 7px;
     border-radius: 40px;
 }
 ul li{
@@ -40,16 +40,10 @@ ul a{
     font-style: italic;
     color: rgb(230, 83, 60);
 }
-
-ul button{
+li .home{
     background-color: rgb(230, 83, 60);
-    font-size: 16px;
-    font-weight: 600;
-    font-family: "Inter", sans-serif;
-    color: rgb(255, 255, 255);
-    padding: 5px;
-    border-radius: 40px;
-    border: none;
+    padding: 6px;
+    border-radius: 15px;
 }
 ul li a{
     font-size: 16px;
@@ -71,7 +65,7 @@ ul li a{
     margin-top: 50px;
 }
 .first-text h1{
-    font-size: 70px;
+    font-size:60px;
     font-family: "Inter", sans-serif;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -144,11 +138,16 @@ ul li a{
 /* change your habit section start */
 .change-container{
     background-color: black;
-    border: 2px solid black;
+    border: 2px solid black
+}
+.title-text{
+    border: 2px solid red;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .title-text .header{
     font-family: "Inter", sans-serif;
-    font-size: 45px;
+    font-size: 33px;
     font-weight: 900;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -176,7 +175,7 @@ ul li a{
     border-radius: 150px;
     width: 78%;
     margin-left: 10%;
-    /* border: 2px solid red; */
+    border: 4px solid rgb(34, 34, 34);
 }
 .card h1{
     color: rgb(255, 255, 255);
@@ -256,7 +255,7 @@ ul li a{
 .bmi-content{
     display: flex;
     max-width: 1100px;
-    border: 2px solid white;
+    border: 2px solid red;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -291,7 +290,7 @@ ul li a{
     align-items: center;
 }
 .bmi-table{
-    border: 2px solid white;
+    border: 2px solid yellow;
 }
 .bmi-table h1{
     color: rgb(255, 255, 255);
@@ -417,6 +416,7 @@ tr td{
     color: rgba(255, 255, 255, 0.5);
     margin: 0 auto;
     max-width: 1100px;
-    text-align: center; 
+    text-align: center;
+    border: 2px solid green; 
 }
 /* footer section end */
