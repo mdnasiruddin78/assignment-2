@@ -134,6 +134,11 @@ ul li a{
     margin-top: 12px;
     margin-right: 10px;
 }
+#play{
+    position: absolute;
+    color: white;
+    display: none;
+}
 /* header section end */
 /* change your habit section start */
 .change-container{
@@ -445,7 +450,8 @@ tr td{
     border: 3px solid #69779B;
     margin: 0 auto;
     background-color: #082032;
-    border-radius: 18px;padding: 20px;
+    border-radius: 18px;
+    padding: 20px;
 }
 .equipment-container h2{
     color: white;
