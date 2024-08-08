@@ -105,10 +105,10 @@ ul li a{
     position: absolute;
     border-radius: 12px;
     background-color: rgba(255, 255, 255, 0.1);
-    border: none;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     padding: 20px;
     top: 220px;
-    right: 250px;
+    right: 80px;
 }
 .first-btn h1{
     color: rgb(255, 255, 255);
@@ -122,9 +122,10 @@ ul li a{
 }
 .second-btn{
     top: 510px;
-    right: 560px;
-    background-color: rgba(37, 37, 37, 0.616);
+    right: 400px;
+    background-color: rgba(37, 37, 37, 0.411);
     display: flex;
+    border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .second-btn .color-add{
     width: 28px;
